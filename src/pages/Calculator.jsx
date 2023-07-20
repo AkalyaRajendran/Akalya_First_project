@@ -3,7 +3,7 @@ import '../css/Calculator';
 
 function Calculator() {
   return (
-    <div>
+    <div className='Calculator_ak'>
       <div className="calculator">
         <div className="displaybar">
           <input type="number" placeholder="0" id="value" />

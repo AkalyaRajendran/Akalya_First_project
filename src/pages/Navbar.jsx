@@ -1,9 +1,9 @@
 import React from 'react';
-import "../css/Navbar";
+import '../css/Navbar';
 
 function Navbar() {
   return (
-    <div>
+    <div className="Navbar_ak">
       <nav>
         <ul>
           <li>

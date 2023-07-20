@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/Signup';
+import '../css/Signup.css';
 
 function Signup() {
   return (
-    <div>
+    <div className ="Signup_ak">
       <div className="signup">
         <div className="signupform">
           <label htmlFor="">

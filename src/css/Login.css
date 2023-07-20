@@ -1,44 +1,43 @@
-<style>
-    .loginform {
-        background-color: rgb(150, 198, 67);
-        width: 440px;
-        height: 300px;
-        margin: auto;
-        margin-top: 100px;
-        border-radius: 20px;
-        padding: 20px;
-        border: 6px solid rgb(2, 123, 2);
-    }
+<style > .Login_ak.loginform {
+  background-color: rgb(150, 198, 67);
+  width: 440px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 6px solid rgb(2, 123, 2);
+}
 
-    body {
-        background-color: rgb(220, 248, 136);
-    }
+body {
+  background-color: rgb(220, 248, 136);
+}
 
-    input {
-        width: 285px;
-        height: 20px;
-        background-color: rgb(220, 248, 136);
-        margin: 20px 0px 10px 0px;
-        border-radius: 9px;
-        text-align: left;
-    }
+.Login_ak input {
+  width: 285px;
+  height: 20px;
+  background-color: rgb(220, 248, 136);
+  margin: 20px 0px 10px 0px;
+  border-radius: 9px;
+  text-align: left;
+}
 
-    button {
-        background-color: rgba(91, 147, 2, 0.822);
-        margin: 40px 120px 0px 25px;
-        border-radius: 6px;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 700;
-    }
+.Login_ak button {
+  background-color: rgba(91, 147, 2, 0.822);
+  margin: 40px 120px 0px 25px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
 
-    #value {
-        margin-left: 40px;
-    }
+.Login_ak #value {
+  margin-left: 40px;
+}
 
-    .formcontentC {
-        background-color: rgba(91, 147, 2, 0.822);
-        margin: 10px 240px 0px 110px;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+.Login_ak .formcontentC {
+  background-color: rgba(91, 147, 2, 0.822);
+  margin: 10px 240px 0px 110px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
