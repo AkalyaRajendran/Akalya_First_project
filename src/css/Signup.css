@@ -1,0 +1,27 @@
+body {
+  margin-top: 100px;
+  background-color: rgb(209, 243, 114);
+}
+
+.signup {
+  margin: auto;
+  background-color: rgb(154, 210, 98);
+  height: 250px;
+  width: 550px;
+  border: 6px solid rgb(2, 82, 2);
+  border-radius: 25px;
+  text-align: left;
+}
+
+.signupform {
+  margin: 35px 0px 0px 10px;
+  font-size: large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+}
+
+.btn{
+  text-align: center;        }
+button{
+  font-weight: bold;
+}
