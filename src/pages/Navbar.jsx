@@ -8,18 +8,11 @@ function Navbar() {
         <ul>
           <li>
             <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Login</a>
-          </li>
-          <li>
-            <a href="">Signup</a>
-          </li>
-          <li>
-            <a href="">Calculator</a>
-          </li>
-          <li>
-            <a href="">Idcard</a>
+            <NavLink to="Login">Login</NavLink>
+            <NavLink to="Signup">Signup</NavLink>
+            <NavLink to="Calculator">Calculator</NavLink>
+            <NavLink to="Idcard">Idcard</NavLink>
+            <NavLink to="Dummy">Dummy</NavLink>
           </li>
         </ul>
       </nav>
