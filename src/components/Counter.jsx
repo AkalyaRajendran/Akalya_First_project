@@ -4,13 +4,13 @@ const Counter = () => {
   const [count, setcount] = React.useState(0);
 
   const increment = () => {
-    ++count;
     setcount(count + 1);
+    console.log(count);
   };
 
   const decrement = () => {
-    --count;
     setcount(count - 1);
+    console.log(count);
   };
 
   return (

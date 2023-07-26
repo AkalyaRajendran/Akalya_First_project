@@ -1,27 +1,28 @@
 import React from 'react';
 import './style.css';
 import Navbar from './pages/Navbar';
-
+import Dummy from './pages/Dummy';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Calculator from './pages/Calculator';
+import Idcard from './pages/Idcard';
 import { Route, Routes } from 'react-router-dom';
-import Dummy from './pages/Dummy';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
       <Routes>
-        <Route path="Login" element={<Login></Login>}></Route>
-        <Route path="Signup" element={<Signup></Signup>}></Route>
-        <Route path="Calculator" element={<Calculator></Calculator>}></Route>
-        <Route path="Dummy" element={<Dummy></Dummy>}></Route>
+        <Route path="login" element={<Login></Login>}></Route>
+        <Route path="signup" element={<Signup></Signup>}></Route>
+        <Route path="calculator" element={<Calculator></Calculator>}></Route>
+        <Route path="dummy" element={<Dummy></Dummy>}></Route>
+        <Route path="idcard" element={<Idcard></Idcard>}></Route>
       </Routes>
 
-      <Signup></Signup>
+      {/* <Signup></Signup>
       <Login></Login>
-      <Calculator></Calculator>
+      <Calculator></Calculator> */}
     </div>
   );
 }
