@@ -5,11 +5,21 @@ import Navbar from './pages/Navbar';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Calculator from './pages/Calculator';
+import { Route, Routes } from 'react-router-dom';
+import 
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <Routes>
+        <Route path='Login' element={<Login></Login>}></Route>
+        <Route path='Signup' element={<Signup></Signup>}></Route>
+        <Route path='Calculator' element={<Calculator></Calculator>}></Route>
+        <Route path='Dummy' element={<Dummy></Dummy>}></Route>
+        <Route path='Counter' element={<Counter></Counter>}></Route>
+        
+      </Routes>
 
       <Signup></Signup>
       <Login></Login>
