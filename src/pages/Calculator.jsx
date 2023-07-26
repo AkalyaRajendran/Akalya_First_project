@@ -2,11 +2,12 @@ import React from 'react';
 import '../css/Calculator';
 
 function Calculator() {
+  const [value, setvalue] = React.useState('');
   return (
-    <div className='Calculator_ak'>
+    <div className="Calculator_ak">
       <div className="calculator">
         <div className="displaybar">
-          <input type="number" placeholder="0" id="value" />
+          <input type="text" placeholder="0" id="value" value={value} />
         </div>
         <div className="button">
           <button>7</button>
@@ -21,9 +22,9 @@ function Calculator() {
           <button>*</button>
         </div>
         <div className="button">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
+          <button onClick={() => setvalue(value + '1')}>1</button>
+          <button onClick={() => setvalue(value + '2')}>2</button>
+          <button onClick={() => setvalue(value + '3')}>3</button>
           <button>-</button>
         </div>
         <div className="button">
