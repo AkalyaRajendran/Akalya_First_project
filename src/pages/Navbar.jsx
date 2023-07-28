@@ -14,6 +14,7 @@ function Navbar() {
             <NavLink to="/calculator">Calculator</NavLink>
             <NavLink to="/idcard">Idcard</NavLink>
             <NavLink to="/dummy">Dummy</NavLink>
+            <NavLink to="/error">Error</NavLink>
           </li>
         </ul>
       </nav>
