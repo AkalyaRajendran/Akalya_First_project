@@ -2,7 +2,7 @@ import React from 'react';
 
 function Idcard() {
   return (
-    <div>
+    <div className="Idcard_ak">
       <div className="idcard">
         <div className="photo">
           <img src="./id_icon.png" alt="id_icon" width="80px"></img>
@@ -19,7 +19,7 @@ function Idcard() {
           <button>View</button>
         </div>
       </div>
-      <div className="idcard">
+      {/* <div className="idcard">
         <div className="photo">
           <img src="./id_icon.png" alt="id_icon" width="80px"></img>
         </div>
@@ -162,7 +162,9 @@ function Idcard() {
         <div className="content btn">
           <button>View</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
+
+export default Idcard;

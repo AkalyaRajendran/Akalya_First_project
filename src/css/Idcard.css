@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(220, 248, 136, 0.2);
+  background: url(https://wallpaperaccess.com/full/6323777.jpg);
+  background-size: cover;
+}
+.Idcard_ak .idcard {
+  display: inline-block;
+  background-color: rgba(236, 241, 245, 0.2);
+  border: 6px solid rgba(165, 227, 244, 0.7);
+  border-radius: 20px;
+  width: 150px;
+  height: 230px;
+  margin: 0px 40px 0px 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.Idcard_ak .photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Idcard_ak .btn {
+  text-align: center;
+}
+.Idcard_ak .content {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+.Idcard_ak button:hover {
+  transform: scale(0.9);
+  transition: 0.5s, all;
+}
