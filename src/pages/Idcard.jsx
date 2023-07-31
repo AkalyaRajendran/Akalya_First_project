@@ -1,6 +1,7 @@
 import React from 'react';
+import Idcard from '../css/Idcard';
 
-function Idcard() {
+function Idcard(props) {
   return (
     <div className="Idcard_ak">
       <div className="idcard">
