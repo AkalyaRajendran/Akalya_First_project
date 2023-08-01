@@ -6,7 +6,10 @@ function Idcard(props) {
     <div className="Idcard_ak">
       <div className="idcard">
         <div className="photo">
-          {/* <img src="./id_icon.png" alt="id_icon" width="80px"></img> */}
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            width="80px"
+          ></img>
           <img></img>
         </div>
         <div className="content">
@@ -23,7 +26,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -39,7 +46,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -55,7 +66,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -71,7 +86,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -87,7 +106,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -103,7 +126,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -119,7 +146,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -135,7 +166,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
@@ -151,7 +186,11 @@ function Idcard(props) {
       </div>
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="id_icon"
+            width="80px"
+          ></img>
         </div>
         <div className="content">
           <label>
