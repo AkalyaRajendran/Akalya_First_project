@@ -6,7 +6,8 @@ function Idcard(props) {
     <div className="Idcard_ak">
       <div className="idcard">
         <div className="photo">
-          <img src="./id_icon.png" alt="id_icon" width="80px"></img>
+          {/* <img src="./id_icon.png" alt="id_icon" width="80px"></img> */}
+          <img></img>
         </div>
         <div className="content">
           <label>
