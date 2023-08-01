@@ -1,5 +1,5 @@
 import React from 'react';
-import Idcard from '../css/Idcard';
+import '../css/Idcard';
 
 function Idcard(props) {
   return (
@@ -20,7 +20,7 @@ function Idcard(props) {
           <button>View</button>
         </div>
       </div>
-      {/* <div className="idcard">
+      <div className="idcard">
         <div className="photo">
           <img src="./id_icon.png" alt="id_icon" width="80px"></img>
         </div>
@@ -163,7 +163,7 @@ function Idcard(props) {
         <div className="content btn">
           <button>View</button>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
