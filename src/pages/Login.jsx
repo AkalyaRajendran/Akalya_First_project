@@ -20,10 +20,26 @@ function Login() {
           <label>Username</label>
           <input
             type="text"
-            {...register('Username')}
+            {...register('Username', {
+              required: {
+                value: true,
+                message: 'Username is required',
+              },
+              minlength: {
+                value: 3,
+                message: 'Username should have atleast 3 Character',
+              },
+              maxlength: {
+                value: 10,
+                message: 'Username should not exceed 10 Character',
+              },
+            })}
             placeholder="Enter Username here"
             id="value"
           />
+          <div>
+            {errors.Username && <small>{errors.Username.message}</small>}
+          </div>
         </div>
         <div className="formcontent">
           <label>Password</label>
@@ -43,7 +59,6 @@ function Login() {
         </div> */}
         <div className="formcontent">
           <button>Login</button>
-          <button>Reset</button>
         </div>
       </form>
     </div>

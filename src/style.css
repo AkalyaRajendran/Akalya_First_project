@@ -8,3 +8,8 @@ body {
   background: url(https://wallpaperaccess.com/full/6323777.jpg);
   margin: 0px;
 }
+
+form small {
+  color: red;
+  font-size: 6px;
+}
