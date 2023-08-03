@@ -1,10 +1,20 @@
 import React from 'react';
 import '../css/Login';
+import { useForm } from 'react-hook-form';
 
 function Login() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
   return (
     <div className="Login_ak">
-      <div className="loginform">
+      <form className="loginform">
         <div className="formcontent">
           <label>Username</label>
           <input type="text" placeholder="Enter Username here" id="value" />
@@ -13,18 +23,18 @@ function Login() {
           <label>Password</label>
           <input type="text" placeholder="Enter password here" id="value" />
         </div>
-        <div className="formcontentC">
+        {/* <div className="formcontentC">
           <label>Xze4iR</label>
-        </div>
-        <div className="formcontent">
+        </div> */}
+        {/* <div className="formcontent">
           <label>Captcha</label>
           <input type="text" placeholder="Enter captcha here" id="value" />
-        </div>
+        </div> */}
         <div className="formcontent">
-          <button>Sign in</button>
-          <button>Reset</button>
+          <input type="submit" valur="Login" />
+          {/* <button>Reset</button> */}
         </div>
-      </div>
+      </form>
     </div>
   );
 }
