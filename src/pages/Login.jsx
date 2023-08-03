@@ -9,19 +9,30 @@ function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
+  const onsubmit = (data) => {
+    // data.preventDefault();
     console.log(data);
   };
   return (
     <div className="Login_ak">
-      <form className="loginform">
+      <form className="loginform" onSubmit={handleSubmit(onsubmit)}>
         <div className="formcontent">
           <label>Username</label>
-          <input type="text" placeholder="Enter Username here" id="value" />
+          <input
+            type="text"
+            {...register('Username')}
+            placeholder="Enter Username here"
+            id="value"
+          />
         </div>
         <div className="formcontent">
           <label>Password</label>
-          <input type="text" placeholder="Enter password here" id="value" />
+          <input
+            type="text"
+            {...register('Password')}
+            placeholder="Enter password here"
+            id="value"
+          />
         </div>
         {/* <div className="formcontentC">
           <label>Xze4iR</label>
@@ -31,8 +42,8 @@ function Login() {
           <input type="text" placeholder="Enter captcha here" id="value" />
         </div> */}
         <div className="formcontent">
-          <input type="submit" valur="Login" />
-          {/* <button>Reset</button> */}
+          <button>Login</button>
+          <button>Reset</button>
         </div>
       </form>
     </div>
