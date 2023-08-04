@@ -48,20 +48,23 @@ function Login() {
             {...register('Password', {
               required: {
                 value: true,
-                message: 'Username is required',
+                message: 'Password is required',
               },
               minLength: {
-                value: 2,
-                message: 'Password should have atleast 2 variable',
+                value: 4,
+                message: 'Password is too short',
               },
               maxLength: {
-                value: 10,
-                message: 'Password holds only 3 variable',
+                value: 8,
+                message: 'Password is too length',
               },
             })}
             placeholder="Enter password here"
             id="value"
           />
+          <div>
+            {errors.Password && <small>{errors.Password.message}</small>}
+          </div>
         </div>
         {/* <div className="formcontentC">
           <label>Xze4iR</label>
