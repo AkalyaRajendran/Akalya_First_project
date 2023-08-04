@@ -1,5 +1,5 @@
 .Login_ak.loginform {
-  background-color: rgb(150, 198, 67);
+  background-color: rgb(199, 240, 128, 0.2);
   width: 440px;
   height: 300px;
   margin: auto;
@@ -35,8 +35,8 @@ body {
   margin-left: 40px;
 }
 
-.Login_ak .formcontentC {
-  background-color: rgba(91, 147, 2, 0.822);
+.Login_ak .formcontent {
+  /* background-color: rgba(91, 147, 2, 0.822); */
   margin: 10px 240px 0px 110px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

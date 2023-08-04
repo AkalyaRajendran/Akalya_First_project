@@ -25,11 +25,11 @@ function Login() {
                 value: true,
                 message: 'Username is required',
               },
-              minlength: {
+              minLength: {
                 value: 3,
                 message: 'Username should have atleast 3 Character',
               },
-              maxlength: {
+              maxLength: {
                 value: 10,
                 message: 'Username should not exceed 10 Character',
               },
