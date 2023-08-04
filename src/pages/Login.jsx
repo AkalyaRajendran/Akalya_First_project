@@ -45,7 +45,20 @@ function Login() {
           <label>Password</label>
           <input
             type="text"
-            {...register('Password')}
+            {...register('Password', {
+              required: {
+                value: true,
+                message: 'Username is required',
+              },
+              minLength: {
+                value: 2,
+                message: 'Password should have atleast 2 variable',
+              },
+              maxLength: {
+                value: 10,
+                message: 'Password holds only 3 variable',
+              },
+            })}
             placeholder="Enter password here"
             id="value"
           />

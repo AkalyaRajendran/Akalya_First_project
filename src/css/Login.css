@@ -16,14 +16,14 @@ body {
 .Login_ak input {
   width: 285px;
   height: 20px;
-  background-color: rgb(200, 206, 182);
+  background-color: rgb(204, 219, 247);
   margin: 20px 0px 10px 0px;
   border-radius: 9px;
   text-align: left;
 }
 
 .Login_ak button {
-  background-color: rgba(232, 238, 223, 0.822);
+  background-color: rgba(204, 219, 247, 0.2);
   margin: 40px 120px 0px 25px;
   border-radius: 6px;
   text-align: center;
